@@ -3,6 +3,8 @@
        
        01 button1 type System.Windows.Forms.Button.
        01 label1 type System.Windows.Forms.Label.
+       01 button2 type System.Windows.Forms.Button.
+       01 dateTimePicker1 type System.Windows.Forms.DateTimePicker.
        01 components type System.ComponentModel.IContainer.
       
       *> Required method for Designer support - do not modify
@@ -11,6 +13,8 @@
        procedure division.
        set button1 to new System.Windows.Forms.Button
        set label1 to new System.Windows.Forms.Label
+       set button2 to new System.Windows.Forms.Button
+       set dateTimePicker1 to new System.Windows.Forms.DateTimePicker
        invoke self::SuspendLayout
       *> 
       *> button1
@@ -31,9 +35,27 @@
        set label1::TabIndex to 1
        set label1::Text to "label1"
       *> 
+      *> button2
+      *> 
+       set button2::Location to new System.Drawing.Point(86 13)
+       set button2::Name to "button2"
+       set button2::Size to new System.Drawing.Size(75 23)
+       set button2::TabIndex to 2
+       set button2::Text to "button2"
+       set button2::UseVisualStyleBackColor to True
+      *> 
+      *> dateTimePicker1
+      *> 
+       set dateTimePicker1::Location to new System.Drawing.Point(28 64)
+       set dateTimePicker1::Name to "dateTimePicker1"
+       set dateTimePicker1::Size to new System.Drawing.Size(216 20)
+       set dateTimePicker1::TabIndex to 3
+      *> 
       *> Form1
       *> 
        set self::ClientSize to new System.Drawing.Size(384 361)
+       invoke self::Controls::Add(dateTimePicker1)
+       invoke self::Controls::Add(button2)
        invoke self::Controls::Add(label1)
        invoke self::Controls::Add(button1)
        set self::Name to "Form1"
