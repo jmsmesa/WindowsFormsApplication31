@@ -46,7 +46,7 @@
       *> 
       *> dateTimePicker1
       *> 
-       set dateTimePicker1::Location to new System.Drawing.Point(28 64)
+       set dateTimePicker1::Location to new System.Drawing.Point(86 62)
        set dateTimePicker1::Name to "dateTimePicker1"
        set dateTimePicker1::Size to new System.Drawing.Size(216 20)
        set dateTimePicker1::TabIndex to 3
