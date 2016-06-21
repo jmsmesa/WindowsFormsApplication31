@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{535C04D7-A2A5-47C7-83E0-B340A995CD1F}") = "WindowsFormsApplication3", "WindowsFormsApplication3\WindowsFormsApplication3.cblproj", "{31C69490-307B-49B7-B654-5498DA053517}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31C69490-307B-49B7-B654-5498DA053517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31C69490-307B-49B7-B654-5498DA053517}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31C69490-307B-49B7-B654-5498DA053517}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31C69490-307B-49B7-B654-5498DA053517}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
